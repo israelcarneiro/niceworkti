@@ -38,6 +38,7 @@
 
 html, body {
   height: 100%;
+  background-color: #e4dcf1;
 }
 
 .floatleft {
@@ -86,7 +87,7 @@ p {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Raleway', sans-serif;
   margin: 0 0 15px;
-  color: #444;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -264,7 +265,7 @@ div#preloader {
   left: 0;
   width: 100%;
   height: auto;
-  background: rgba(0, 0, 0, 0.40);
+  background: rgba(61, 35, 82, 0.30);
   z-index: 9;
 }
 
@@ -283,7 +284,7 @@ div#preloader {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
   color: #fff;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 24px 0px;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -314,7 +315,8 @@ div#preloader {
 }
 
 .main-menu ul.navbar-nav li a:hover {
-  color: #3EC1D5;
+  color: #2e003e;
+  font-weight: bold;
 }
 
 .navbar {
@@ -328,7 +330,7 @@ div#preloader {
 
 .main-menu ul.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
   background: none;
-  color: #333;
+  color: #dfdfdf;
 }
 
 .navbar-default .navbar-toggle {
@@ -383,7 +385,7 @@ div#preloader {
 /*--------------------------------*/
 
 .header-area.stick {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: rgba(61, 35, 82, 0.60);
   height: 70px;
   position: fixed;
   top: 0;
@@ -414,7 +416,7 @@ div#preloader {
 }
 
 .sticky-logo h1 span {
-  color: #3ec1d5;
+  color: #2e003e ;
 }
 .stick .main-menu ul.navbar-nav li.active > a::after {
   border: 1px solid #fff;
@@ -426,7 +428,7 @@ div#preloader {
 }
 
 .stick .main-menu ul.nav>li>a:hover {
-  color: #fff;
+  color: #2e003e;
 }
 
 .stick .main-menu ul.navbar-nav li.active a {
@@ -476,7 +478,7 @@ div#preloader {
 --------------------------------*/
 
 .about-area {
-  background-color: #f9f9f9;
+  background-color: #8874a3;
 }
 
 .single-well>a {
@@ -484,7 +486,7 @@ div#preloader {
 }
 
 .single-well ul li {
-  color: #444;
+  color: #dfdfdf;
   display: block;
   padding: 5px 0;
 }
@@ -496,7 +498,7 @@ div#preloader {
 }
 
 .single-well p {
-  color: #444;
+  color: #dfdfdf;
 }
 
 /*--------------------------------*/
@@ -505,7 +507,7 @@ div#preloader {
 /*--------------------------------*/
 
 .services-icon {
-  color: #444;
+  color: #fff;
   display: inline-block;
   font-size: 36px;
   line-height: 36px;
@@ -521,8 +523,8 @@ div#preloader {
   transition: all 0.5s ease 0s;
 }
 
-.services-details:hover h4, .services-details:hover .services-icon {
-  color: #3EC1D5;
+.services-details:hover h4, .services-details:hover .services-icon, .single-services:hover p {
+  color: #2e003e;
 }
 
 .row.second-row {
@@ -534,13 +536,13 @@ div#preloader {
 }
 
 .single-services>h4 {
-  color: #444;
+  color: #fff;
   font-size: 24px;
   font-weight: 500;
 }
 
 .single-services>p {
-  color: #333;
+  color: #fff;
   font-size: 14px;
 }
 
@@ -968,8 +970,8 @@ div#preloader {
 
 .team-social-icon ul li a:hover {
   color: #fff;
-  border: 1px solid #3EC1D5;
-  background: #3EC1D5;
+  border: 1px solid #3d1e6d;
+  background: #3d1e6d;
 }
 
 .team-content {
@@ -977,7 +979,7 @@ div#preloader {
 }
 
 .team-content>h4, .team-content>p {
-  color: #444;
+  color: #fff;
   margin-bottom: 5px;
 }
 
@@ -1580,7 +1582,7 @@ div#preloader {
 --------------------------------*/
 
 .suscribe-area {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #2e003e none repeat scroll 0 0;
   padding: 30px 0;
 }
 
@@ -1602,7 +1604,7 @@ div#preloader {
 .sus-btn {
   background: #fff none repeat scroll 0 0;
   border: 2px solid #fff;
-  color: #3EC1D5;
+  color: #2e003e;
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
@@ -1614,7 +1616,7 @@ div#preloader {
 }
 
 .sus-btn:hover {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #2e003e none repeat scroll 0 0;
   border: 2px solid #fff;
   color: #fff;
 }
@@ -1640,7 +1642,7 @@ div#preloader {
 
 .contact-form input[type="text"], .contact-form input[type="email"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   border-radius: 0;
   color: #444;
   height: 40px;
@@ -1651,7 +1653,7 @@ div#preloader {
 
 .contact-form textarea  {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
+  border: 1px solid #fff;
   border-radius: 0;
   color: #444;
   height: 140px;
@@ -1661,8 +1663,8 @@ div#preloader {
 
 .contact-form button[type="submit"] {
   background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
-  color: #444;
+  border: 1px solid #fff;
+  color: #2e003e;
   font-size: 16px;
   font-weight: 700;
   margin-top: 8px;
@@ -1674,13 +1676,13 @@ div#preloader {
 
 .contact-form button[type=submit]:hover {
   color: #fff;
-  border: 1px solid #3EC1D5;
-  background: #3EC1D5;
+  border: 1px solid #2e003e;
+  background: #2e003e;
 }
 
 .contact-form  #sendmessage {
-  color: #3EC1D5;
-  border: 1px solid #3EC1D5;
+  color: #2e003e;
+  border: 1px solid #2e003e;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1714,7 +1716,7 @@ div#preloader {
   font-size: 24px;
   width: 50px;
   height: 50px;
-  border: 1px solid #444;
+  border: 1px solid #fff;
   line-height: 46px;
   border-radius: 50%;
   margin-bottom: 20px;
@@ -1723,9 +1725,11 @@ div#preloader {
 .single-icon p {
   font-size: 16px;
   line-height: 30px;
+  color: #fff;
 }
 
 .contact-icon {
+  color: #fff;
   margin-bottom: 40px;
 }
 
@@ -1741,15 +1745,15 @@ div#preloader {
 
 .footer-area {
   padding: 40px 0;
-  background: #f9f9f9;
+  background: rgba(51, 51, 51, 0.80);
 }
 
 .footer-head p {
-  color: #444;
+  color: #fff;
 }
 
 .footer-head h4 {
-  color: #444;
+  color: #fff;
   font-size: 16px;
   letter-spacing: 2px;
   padding-bottom: 10px;
@@ -1761,7 +1765,7 @@ div#preloader {
 }
 
 .footer-logo h2 {
-  color: #222;
+  color: #fff;
   padding: 0;
   margin: 0;
   font-size: 36px;
@@ -1770,7 +1774,7 @@ div#preloader {
 }
 
 .footer-logo h2 span {
-  color: #3ec1d5;
+  color: #2e003e;
 }
 
 .footer-icons ul li {
@@ -1778,8 +1782,8 @@ div#preloader {
 }
 
 .footer-icons ul li a {
-  border: 1px solid #444;
-  color: #444;
+  border: 1px solid #fff;
+  color: #fff;
   display: block;
   font-size: 16px;
   height: 40px;
@@ -1801,7 +1805,7 @@ div#preloader {
 }
 
 .footer-contacts p span {
-  color: #3EC1D5;
+  color: #2e003e;
   font-weight: 700;
 }
 
@@ -1815,8 +1819,8 @@ div#preloader {
 }
 
 .popular-tag ul li a:hover, .footer-icons ul li a:hover {
-  background: #3EC1D5;
-  border: 1px solid #3EC1D5;
+  background: #2e003e;
+  border: 1px solid #2e003e;
   color: #fff;
 }
 
